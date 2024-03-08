@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5efca13-2aad-4b82-b652-91597843fe39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PartyTracker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PartyTracker.py" afterDir="false" />
+    <list default="true" id="b381b717-8615-42c8-84bc-00338299736c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/PartyTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DanceFloorTracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartyTracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/DanceFloorTracker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,20 +21,20 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2cxUjNK8vQKygdS1oCHe9OWDdLR" />
+  <component name="ProjectId" id="2dPYJCng2NsR776bXyu33iJnSBf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/raphael/PycharmProjects/PartyTracker"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -48,11 +45,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c5efca13-2aad-4b82-b652-91597843fe39" name="Changes" comment="" />
-      <created>1709052857795</created>
+      <changelist id="b381b717-8615-42c8-84bc-00338299736c" name="Changes" comment="" />
+      <created>1709911107090</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1709052857795</updated>
+      <updated>1709911107090</updated>
     </task>
     <servers />
   </component>

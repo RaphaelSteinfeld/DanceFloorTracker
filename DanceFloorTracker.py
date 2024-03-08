@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+DanceFloorTracker is a fun party script to illuminate your dance floor that also allows for each person on the floor to move in their own spotlight and leave a glowing trace behind as they move around.
 Created on Sat Feb 24 13:07:52 2024
 
-@author: raphael
+@author: raphael steinfeld
 """
 import numpy as np
 import cv2 as cv
@@ -12,13 +13,13 @@ from scipy.signal import convolve2d
 import matplotlib.pyplot as plt
 
 
-class PartyTracker:
+class DanceFloorTracker:
     
    def __init__(self, CamID=0,  ImWidth=1280, ImHeight=800, ColMaps='all',
                 ColTransition=True, DurColMap=10, TransitionTime=5, Mirror=True):
         
         # Initialize Camera
-        self.cap = cv.VideoCapture(CamID)       
+        self.cap = cv.VideoCapture(CamID)
         self.cap.set(cv.CAP_PROP_FRAME_WIDTH, 1280)
         self.cap.set(cv.CAP_PROP_FRAME_HEIGHT, 720)
         
@@ -111,7 +112,7 @@ class PartyTracker:
            cv.imshow('frame',cv.resize(frame,(self.ImWidth, self.ImHeight)))
            if cv.waitKey(10) & 0xFF == ord('q'):
               cv.destroyAllWindows()
-              cv.waitKey(100)
+              cv.waitKey(150)
               Ongoing=0
                            
    def ConfirmSelection(self):
@@ -141,7 +142,7 @@ class PartyTracker:
              cv.imshow('frame',cv.resize(frame,(self.ImWidth, self.ImHeight)))
              if cv.waitKey(10) & 0xFF == ord('q'):
                  cv.destroyAllWindows()
-                 cv.waitKey(100)
+                 cv.waitKey(150)
                  Ongoing=0    
            
    def Display(self,FinalSignal,counter):
@@ -238,7 +239,7 @@ class PartyTracker:
            Vert[c,:], Horz[c,:]= self.ScreenPosition(frame,c)
           
        cv.destroyAllWindows()
-       cv.waitKey(50)
+       cv.waitKey(150)
        gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
            
        Horz2 = np.zeros((2,)).astype('int')
@@ -298,7 +299,7 @@ class PartyTracker:
                 
             if cv.waitKey(1) & 0xFF == ord('q'):
                 cv.destroyAllWindows()
-                cv.waitKey(50)
+                cv.waitKey(150)
                 break
     
    def MeasureDistortion(self,whiteframe = 'logo'):
@@ -356,7 +357,7 @@ class PartyTracker:
         objpoints2, imgpoints2 = self.FindCorners()  
         cv.waitKey(100)    
         cv.destroyAllWindows()
-        cv.waitKey(100)    
+        cv.waitKey(150)
         
         # Append the results:
         objpoints = np.append(objpoints,objpoints2,axis=0)
@@ -395,7 +396,7 @@ class PartyTracker:
             if cv.waitKey(10) & 0xFF == ord('q'):
                 Ongoing=0
                 cv.destroyAllWindows()
-                cv.waitKey(10)
+                cv.waitKey(150)
             
    def Process(self,Frames,gray,FinalSignal):
         Signal = []
@@ -459,7 +460,7 @@ class PartyTracker:
    def ShutDown(self):
          self.cap.release()
          cv.destroyAllWindows()
-         cv.waitKey(10)   
+         cv.waitKey(500)
 
    def Track(self):                
        assert not np.isnan(self.linear), 'Distortion of camera is unknown. Run PartyTacker.MeasureDistorion() first.'
@@ -506,6 +507,6 @@ class PartyTracker:
                
            if cv.waitKey(1) & 0xFF == ord('q'):
                cv.destroyAllWindows()
-               cv.waitKey(50)
+               cv.waitKey(150)
                break
    
