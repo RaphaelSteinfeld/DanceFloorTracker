@@ -66,9 +66,7 @@ Accepts an array of integers determining the position of selected colormaps, or 
 **Mirror** Determines if the camera picture is flipped vertically. Defaults to True. Only used in JustFilter method. 
 
 ## Examples
-See example videos to get an idea of the working Track method and the best dog ever :)   
+See example video to get an idea of the working Track method and the best dog ever :)   
 
-
-![Picture.jpeg](Picture.jpeg)
 
 ![Example.gif](Example.gif)
