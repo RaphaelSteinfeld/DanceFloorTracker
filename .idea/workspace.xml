@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b381b717-8615-42c8-84bc-00338299736c" name="Changes" comment="Readme added with video">
-      <change afterPath="$PROJECT_DIR$/Example1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example2.mp4" afterDir="false" />
+    <list default="true" id="b381b717-8615-42c8-84bc-00338299736c" name="Changes" comment="Readme added with videos">
+      <change beforePath="$PROJECT_DIR$/Example1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example2.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710083203157</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Readme added with videos">
+      <option name="closed" value="true" />
+      <created>1710083838450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710083838450</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +222,7 @@
     <MESSAGE value="First version DanceFloorTracker" />
     <MESSAGE value="Readme added" />
     <MESSAGE value="Readme added with video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme added with video" />
+    <MESSAGE value="Readme added with videos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme added with videos" />
   </component>
 </project>
