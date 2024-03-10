@@ -9,7 +9,6 @@ DanceFloorTracker is a fun party script to illuminate your dance floor that also
 - Projector
 <br />
 <br /> 
-<br /> 
 
 *Python packages:*
 - Numpy
@@ -66,3 +65,4 @@ Accepts an array of integers determining the position of selected colormaps, or 
 **TransitionTime** Determines the duration [s] of transitioning between colormaps. Defaults to 5. Only used if ColTransition is True. 
 **Mirror** Determines if the camera picture is flipped vertically. Defaults to True. Only used in JustFilter method. 
 
+## Examples:
