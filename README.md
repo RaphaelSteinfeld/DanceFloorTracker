@@ -68,6 +68,4 @@ Accepts an array of integers determining the position of selected colormaps, or 
 ## Examples
 See example videos to get an idea of the working Track method and the best dog ever :) 
 
-
-
-![signal-2024-03-10-143716_002.jpeg](..%2F..%2FDownloads%2Fsignal-2024-03-10-143716_002.jpeg)
+[Example.mp4](Example.mp4)
