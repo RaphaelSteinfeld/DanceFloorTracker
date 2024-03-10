@@ -1,0 +1,187 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+deleted file mode 100644
+--- a/README.md	(revision 1b05f409170dcb905ebfbfdd6c1f7cf7352478a0)
++++ /dev/null	(revision 1b05f409170dcb905ebfbfdd6c1f7cf7352478a0)
+@@ -1,29 +0,0 @@
+-# DanceFloorTracker
+-
+-## Introduction
+-DanceFloorTracker is a fun party script to illuminate your dance floor that also allows for each person on the floor to move in their own spotlight and leave a glowing trace behind as they move around.
+-
+-## Prerequesits
+-*Hardware:*
+-- Webcamera
+-- Projector
+-
+-*Python packages:*
+-- Numpy
+-- OpenCV
+-- Scipy
+-- Matplotlib
+-
+-## Usage:
+-DanceFloorTracker has 2 main usage modes. One allowing for simple processing and displaying of the video from teh camera and another for faithfully tracking and illinating moving objects and people.
+-###1. Just processing:
+-To quickly get a feel about how the processed video stream looks like, use the JustFilter() method:
+-```
+-from DanceFloorTracker import DanceFloorTracker
+-DFT = DanceFloorTracker()
+-DFT.JustFilter()
+-```
+-To stop the stream, press 'q' and to release the camera, use the ShutDown method:
+-```
+-DFT.ShutDown()
+-```
+Index: readme.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/readme.md b/readme.md
+new file mode 100644
+--- /dev/null	
++++ b/readme.md	
+@@ -0,0 +1,30 @@
++# DanceFloorTracker
++
++## Introduction
++DanceFloorTracker is a fun party script to illuminate your dance floor that also allows for each person on the floor to move in their own spotlight and leave a glowing trace behind as they move around.
++
++## Prerequesits
++*Hardware:*
++- Webcamera
++- Projector
++
++
++*Python packages:*
++- Numpy
++- OpenCV
++- Scipy
++- Matplotlib
++
++## Usage:
++DanceFloorTracker has 2 main usage modes. One allowing for simple processing and displaying of the video from teh camera and another for faithfully tracking and illinating moving objects and people.
++###1. Just processing:
++To quickly get a feel about how the processed video stream looks like, use the JustFilter() method:
++```
++from DanceFloorTracker import DanceFloorTracker
++DFT = DanceFloorTracker()
++DFT.JustFilter()
++```
++To stop the stream, press 'q' and to release the camera, use the ShutDown method:
++```
++DFT.ShutDown()
++```
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b381b717-8615-42c8-84bc-00338299736c\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/PartyTracker.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/DanceFloorTracker.iml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/PartyTracker.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/DanceFloorTracker.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2dPYJCng2NsR776bXyu33iJnSBf\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"autoscrollToSource\" value=\"true\" />\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;\n  }\n}</component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"b381b717-8615-42c8-84bc-00338299736c\" name=\"Changes\" comment=\"\" />\n      <created>1709911107090</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1709911107090</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1b05f409170dcb905ebfbfdd6c1f7cf7352478a0)
++++ b/.idea/workspace.xml	(date 1709918679067)
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b381b717-8615-42c8-84bc-00338299736c" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/PartyTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DanceFloorTracker.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++    <list default="true" id="b381b717-8615-42c8-84bc-00338299736c" name="Changes" comment="First version DanceFloorTracker">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/PartyTracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/DanceFloorTracker.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -16,7 +13,31 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <favorite-branches>
++      <branch-storage>
++        <map>
++          <entry type="REMOTE">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="origin/RaphaelSteinfeld-patch-1" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </favorite-branches>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GithubDefaultAccount">
++    <option name="defaultAccountId" value="b2e3f765-876b-4269-bcd3-437de92bb046" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 5
+@@ -28,13 +49,14 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "RaphaelSteinfeld-patch-1",
++    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable"
+   }
+-}</component>
++}]]></component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -51,6 +73,30 @@
+       <option name="presentableId" value="Default" />
+       <updated>1709911107090</updated>
+     </task>
++    <task id="LOCAL-00001" summary="First version DanceFloorTracker">
++      <option name="closed" value="true" />
++      <created>1709912823564</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1709912823564</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="First version DanceFloorTracker" />
++    <option name="LAST_COMMIT_MESSAGE" value="First version DanceFloorTracker" />
++  </component>
+ </project>
+\ No newline at end of file
