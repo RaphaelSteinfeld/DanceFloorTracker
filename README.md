@@ -66,6 +66,7 @@ Accepts an array of integers determining the position of selected colormaps, or 
 **Mirror** Determines if the camera picture is flipped vertically. Defaults to True. Only used in JustFilter method. 
 
 ## Examples
+Here is an example of the working Track method and the best dog ever :) 
 https://github.com/RaphaelSteinfeld/DanceFloorTracker/assets/61322292/0e4dc24a-3037-4e0f-8a42-2a2c8b55ce9d
 
 
