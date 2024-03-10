@@ -65,4 +65,8 @@ Accepts an array of integers determining the position of selected colormaps, or 
 **TransitionTime** Determines the duration [s] of transitioning between colormaps. Defaults to 5. Only used if ColTransition is True. 
 **Mirror** Determines if the camera picture is flipped vertically. Defaults to True. Only used in JustFilter method. 
 
-## Examples:
+## Examples
+https://github.com/RaphaelSteinfeld/DanceFloorTracker/assets/61322292/0e4dc24a-3037-4e0f-8a42-2a2c8b55ce9d
+
+
+
