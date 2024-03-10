@@ -69,3 +69,5 @@ Accepts an array of integers determining the position of selected colormaps, or 
 See example videos to get an idea of the working Track method and the best dog ever :) 
 ![Picture.jpeg](Picture.jpeg)
 
+[Example1.mp4](Example1.mp4)
+[Example2.mp4](Example2.mp4)
